@@ -3,7 +3,7 @@
 int main(){
 	int x;
 	printf("##########Console-output###\n");
-	printf("Enter a integer: 25\n");
+	printf("Enter a integer: \n");
 	fflush(stdout);
 	scanf("%d",&x);
 	printf("You entered:%d\n",x);
