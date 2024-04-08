@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+struct emplyee {
+	char name[20];
+	int id;
+};
+int main() {
+	struct emplyee * array[1];
+	struct emplyee* p;
+	strcpy(p->name, "Alex");
+	p->id=1002;
+	array[0]=p;
+	printf("Exmployee Name: %s \n Employee ID:%d",array[0]->name,array[0]->id);
+}
+
